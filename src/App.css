@@ -1,10 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 .App {
   text-align: center;
+  background-color: white;
+}
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 2%;
+}
+
+h1,
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+img {
+  width: 70%;
+  height: 70vh;
+}
+
+.cal {
+  width: 1%;
+  margin: 0% auto;
+}
+
+#like {
+  display: flex;
+  justify-content: center;
+  width: 32%;
+  padding: 0.5%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
