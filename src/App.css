@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
 .App {
   text-align: center;
-  background-color: white;
+}
+
+body {
+  background-image: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg');
 }
 p {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -10,17 +14,15 @@ p {
   margin: 0 auto;
   text-align: left;
   padding: 2%;
+  color: white;
 }
 
 h1,
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 img {
   width: 70%;
   height: 70vh;
@@ -28,6 +30,7 @@ img {
 
 .cal {
   margin: 0% auto;
+  background-color: white;
 }
 
 #like {
@@ -37,32 +40,6 @@ img {
   padding: 0.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#like {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
