@@ -22,7 +22,7 @@ function App() {
       .catch((err) => {
         console.log("error", err);
       });
-  }, []);
+  },[]);
 
 
   const changeHandler = date => {
